@@ -1,3 +1,6 @@
+* {
+    text-align: right;
+}
 
 body {
     background-image: url("background_image.jpg");
@@ -12,10 +15,26 @@ h2 {
 }
 
 p{
-    color: pink;
+    color: white;
 }
 
 li {
     list-style: none;
     display: in;
 }
+#div1 {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.webtext {
+    border: 5px solid red;
+}
+
+.active {
+    border: 5px solid blue;
+}
+
+.inactive {
+    border: 5px solid yellow;
+}
+
